@@ -85,7 +85,7 @@
     vertical-align: middle;
     font-size: 14px;
     margin: 20px;
-    width: 180px;
+    width: 20em;
   }
   #footer {
     margin-top: 100px;
@@ -126,15 +126,17 @@
 </style>
 <body>
   <div class="container">
-    <h1>From 🇬🇧</h1>
-    <p class="note">(just start typing!)</p>
-    <textarea id="input">OMG!!! The house is on fire and the cat is eating all the donuts!</textarea>
+    <h1>Bahnansagen</h1>
+    <p class="note">(einfach losschreiben)</p>
+    <textarea id="input">Polizeieinsatz, kein Zugverkehr</textarea>
     <br><br>
-    <h1>To ✨emoji✨ <button onclick="copy()" id="copyButton">Copy to clipboard</button></h1>
+    <h1>Zu ✨Emoji✨ <button onclick="copy()" id="copyButton">In Zwischenablage kopieren</button></h1>
     <div id="output"></div>
     <div id="footer">
-        <p>made with <span class="red">❤︎</span> by <a href="https://twitter.com/notwaldorf">monica</a>.
-        find this on <a href="https://github.com/notwaldorf/emoji-translate">github</a></p>
+        <p>made with <span class="red">❤︎</span> by <a href="https://twitter.com/tursics">thomas</a>.
+        find this on <a href="https://github.com/tursics/bahnisch-2-emoji">github</a></p>
+        <p style="color: #ccc;">Original: made with <span style="color:#fcc">❤︎</span> by <a href="https://twitter.com/notwaldorf" style="color:#fcc">monica</a>.
+          find this on <a href="https://github.com/notwaldorf/emoji-translate" style="color:#fcc">github</a></p>
     </div>
   </div>
 
@@ -160,8 +162,9 @@
       var container = document.getElementById('output');
       var allLines = text.split('\n');
       for (var line = 0; line < allLines.length; line++ ){
-        if (allLines[line] == '')
-          continue
+        if (allLines[line] === '') {
+          continue;
+        }
         var words = allLines[line].split(' ');
         // Re-add the translated words.
         for (var i = 0; i < words.length; i++ ) {
@@ -186,15 +189,15 @@
       var result = false;
       try {
         result = document.execCommand('copy');
-        copyButton.innerHTML = 'Done!';
+        copyButton.innerHTML = 'Fertig!';
       } catch (err) {
         // Copy command is not available
         console.error(err);
-        copyButton.innerHTML = 'Oops, error copying :(';
+        copyButton.innerHTML = 'Uups, da ist ein Fehler aufgetreten :(';
       }
       // Return to the copy button after a second.
       setTimeout(function() {
-        copyButton.innerHTML = 'Copy to clipboard';
+        copyButton.innerHTML = 'In Zwischenablage kopieren';
       }.bind(this), 1000);
       selection.removeAllRanges();
       return result;
@@ -208,7 +211,7 @@
           value += nodes[i].options[nodes[i].selectedIndex].textContent;
         } else if (nodes[i].tagName === 'BR') {
           value += '\n';
-        } else if (nodes[i].tagName != 'OPTION') {
+        } else if (nodes[i].tagName !== 'OPTION') {
           value += nodes[i].textContent;
         }
       }
