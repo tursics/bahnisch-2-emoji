@@ -72,9 +72,11 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
     useful.push('');
-  } else if (word === 'im' || word === 'in' || word === 'an' || word === 'um'){
+  } else if (word === 'im' || word === 'in' || word === 'an' || word === 'um' || word === 'es'){
     useful.push('');
   } else if (word === 'bitte' || word === 'sie'){
+    useful.push('');
+  } else if (word === 'sind' || word === 'befinden' || word === 'sich'){
     useful.push('');
   } else if (word === 'ist' || word === 'auf' || word === 'wegen' || word === 'fahren' || word === 'fährt' || word === 'nutzen') {
     useful.push('&nbsp;');

@@ -2070,7 +2070,7 @@
     "category": "travelandplaces"
   },
   "railway_track": {
-    "keywords": ["gleis", "gleise"],
+    "keywords": ["gleis", "gleise", "strecke"],
     "char": "\uD83D\uDEE4️",
     "category": "travelandplaces"
   },
@@ -3210,7 +3210,7 @@
     "category": "objectsandsymbols"
   },
   "no_entry_sign": {
-    "keywords": ["verbieten", "stopp", "grenze", "verweigert", "ablehnen", "kreis"],
+    "keywords": ["gesperrt"],
     "char": "🚫",
     "category": "objectsandsymbols"
   },
@@ -3570,7 +3570,7 @@
     "category": "objectsandsymbols"
   },
   "arrow_forward": {
-    "keywords": ["blau-square", "recht", "richtung"],
+    "keywords": ["und", "dann"],
     "char": "▶️",
     "category": "objectsandsymbols"
   },
