@@ -72,6 +72,8 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
     useful.push('');
+  } else if (word === 'im' || word === 'in' || word === 'an' || word === 'um'){
+    useful.push('');
   } else if (word === 'ist' || word === 'wegen') {
     useful.push('&nbsp;');
   } else if (word === 'voraussichtlich' || word === 'voraussichtliche' || word === 'ca') {

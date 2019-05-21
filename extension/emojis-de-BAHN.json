@@ -290,47 +290,47 @@
     "category": "menschen"
   },
   "smile_cat": {
-    "keywords": ["tier", "katzen"],
+    "keywords": ["katzen"],
     "char": "😸",
     "category": "menschen"
   },
   "joy_cat": {
-    "keywords": ["tier", "katzen", "haha", "glücklich", "tränen"],
+    "keywords": ["katzen", "haha", "glücklich", "tränen"],
     "char": "😹",
     "category": "menschen"
   },
   "smiley_cat": {
-    "keywords": ["tier", "katzen", "glücklich"],
+    "keywords": ["katzen", "glücklich"],
     "char": "😺",
     "category": "menschen"
   },
   "heart_eyes_cat": {
-    "keywords": ["tier", "liebe", "mögen", "zuneigung", "katzen", "valentines"],
+    "keywords": ["liebe", "mögen", "zuneigung", "katzen", "valentines"],
     "char": "😻",
     "category": "menschen"
   },
   "smirk_cat": {
-    "keywords": ["tier", "katzen"],
+    "keywords": ["katzen"],
     "char": "😼",
     "category": "menschen"
   },
   "kissing_cat": {
-    "keywords": ["tier", "katzen"],
+    "keywords": ["katzen"],
     "char": "😽",
     "category": "menschen"
   },
   "pouting_cat": {
-    "keywords": ["tier", "katzen"],
+    "keywords": ["katzen"],
     "char": "😾",
     "category": "menschen"
   },
   "crying_cat_face": {
-    "keywords": ["tier", "tränen", "weinen", "traurig", "katzen", "verärgert"],
+    "keywords": ["tränen", "weinen", "traurig", "katzen", "verärgert"],
     "char": "😿",
     "category": "menschen"
   },
   "scream_cat": {
-    "keywords": ["tier", "katzen", "munch", "erschrocken"],
+    "keywords": ["katzen", "munch", "erschrocken"],
     "char": "🙀",
     "category": "menschen"
   },
@@ -340,12 +340,12 @@
     "category": "menschen"
   },
   "bust_in_silhouette": {
-    "keywords": ["benutzer", "person", "mensch"],
+    "keywords": ["person", "personen"],
     "char": "👤",
     "category": "menschen"
   },
   "busts_in_silhouette": {
-    "keywords": ["benutzer", "person", "mensch", "gruppe", "mannschaft"],
+    "keywords": ["benutzer", "mensch", "gruppe", "mannschaft"],
     "char": "👥",
     "category": "menschen"
   },
@@ -780,297 +780,297 @@
     "category": "natur"
   },
   "rat": {
-    "keywords": ["tier", "maus", "nagetier"],
+    "keywords": ["maus", "nagetier"],
     "char": "🐀",
     "category": "natur"
   },
   "mouse2": {
-    "keywords": ["tier", "natur", "nagetier"],
+    "keywords": ["natur", "nagetier"],
     "char": "🐁",
     "category": "natur"
   },
   "mouse": {
-    "keywords": ["tier", "natur", "käse"],
+    "keywords": ["natur", "käse"],
     "char": "🐭",
     "category": "natur"
   },
   "hamster": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐹",
     "category": "natur"
   },
   "ox": {
-    "keywords": ["tier", "kuh", "rindfleisch"],
+    "keywords": ["kuh", "rindfleisch"],
     "char": "🐂",
     "category": "natur"
   },
   "water_buffalo": {
-    "keywords": ["tier", "natur", "ochse", "kuh"],
+    "keywords": ["natur", "ochse", "kuh"],
     "char": "🐃",
     "category": "natur"
   },
   "cow2": {
-    "keywords": ["rindfleisch", "ochse", "tier", "natur", "muhen", "milch"],
+    "keywords": ["rindfleisch", "ochse", "natur", "muhen", "milch"],
     "char": "🐄",
     "category": "natur"
   },
   "cow": {
-    "keywords": ["rindfleisch", "ochse", "tier", "natur", "muhen", "milch"],
+    "keywords": ["tier", "tiere"],
     "char": "🐮",
     "category": "natur"
   },
   "tiger2": {
-    "keywords": ["tier", "natur", "gebrüll"],
+    "keywords": ["natur", "gebrüll"],
     "char": "🐅",
     "category": "natur"
   },
   "leopard": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐆",
     "category": "natur"
   },
   "tiger": {
-    "keywords": ["tier", "katze", "wild", "natur", "gebrüll"],
+    "keywords": ["katze", "wild", "natur", "gebrüll"],
     "char": "🐯",
     "category": "natur"
   },
   "rabbit2": {
-    "keywords": ["tier", "natur", "haustier", "magie", "frühling"],
+    "keywords": ["natur", "haustier", "magie", "frühling"],
     "char": "🐇",
     "category": "natur"
   },
   "rabbit": {
-    "keywords": ["tier", "natur", "haustier", "frühling", "magie"],
+    "keywords": ["natur", "haustier", "frühling", "magie"],
     "char": "🐰",
     "category": "natur"
   },
   "cat2": {
-    "keywords": ["tier", "miau", "haustier", "katzen"],
+    "keywords": ["miau", "haustier", "katzen"],
     "char": "🐈",
     "category": "natur"
   },
   "cat": {
-    "keywords": ["tier", "miau", "natur", "haustier"],
+    "keywords": ["miau", "natur", "haustier"],
     "char": "🐱",
     "category": "natur"
   },
   "racehorse": {
-    "keywords": ["tier", "spielen", "glück"],
+    "keywords": ["spielen", "glück"],
     "char": "🐎",
     "category": "natur"
   },
   "horse": {
-    "keywords": ["tier", "braun", "natur", "einhorn"],
+    "keywords": ["braun", "natur", "einhorn"],
     "char": "🐴",
     "category": "natur"
   },
   "ram": {
-    "keywords": ["tier", "schaf", "natur"],
+    "keywords": ["schaf", "natur"],
     "char": "🐏",
     "category": "natur"
   },
   "sheep": {
-    "keywords": ["tier", "natur", "wolle", "es versenden"],
+    "keywords": ["natur", "wolle", "es versenden"],
     "char": "🐑",
     "category": "natur"
   },
   "goat": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐐",
     "category": "natur"
   },
   "rooster": {
-    "keywords": ["tier", "natur", "huhn"],
+    "keywords": ["natur", "huhn"],
     "char": "🐓",
     "category": "natur"
   },
   "chicken": {
-    "keywords": ["tier", "glucken", "natur", "vogel"],
+    "keywords": ["glucken", "natur", "vogel"],
     "char": "🐔",
     "category": "natur"
   },
   "baby_chick": {
-    "keywords": ["tier", "huhn", "vogel"],
+    "keywords": ["huhn", "vogel"],
     "char": "🐤",
     "category": "natur"
   },
   "hatching_chick": {
-    "keywords": ["tier", "huhn", "ei", "geboren", "baby", "vogel"],
+    "keywords": ["huhn", "ei", "geboren", "baby", "vogel"],
     "char": "🐣",
     "category": "natur"
   },
   "hatched_chick": {
-    "keywords": ["tier", "huhn", "baby", "vogel"],
+    "keywords": ["huhn", "baby", "vogel"],
     "char": "🐥",
     "category": "natur"
   },
   "bird": {
-    "keywords": ["tier", "natur", "fliege", "tweet", "frühling"],
+    "keywords": ["natur", "fliege", "tweet", "frühling"],
     "char": "🐦",
     "category": "natur"
   },
   "penguin": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐧",
     "category": "natur"
   },
   "elephant": {
-    "keywords": ["tier", "natur", "nase", "thailand", "zirkus"],
+    "keywords": ["natur", "nase", "thailand", "zirkus"],
     "char": "🐘",
     "category": "natur"
   },
   "dromedary_camel": {
-    "keywords": ["tier", "heiß", "wüste", "buckel"],
+    "keywords": ["heiß", "wüste", "buckel"],
     "char": "🐪",
     "category": "natur"
   },
   "camel": {
-    "keywords": ["tier", "natur", "heiß", "wüste", "buckel"],
+    "keywords": ["natur", "heiß", "wüste", "buckel"],
     "char": "🐫",
     "category": "natur"
   },
   "boar": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐗",
     "category": "natur"
   },
   "pig2": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐖",
     "category": "natur"
   },
   "pig": {
-    "keywords": ["tier", "grunz", "natur"],
+    "keywords": ["grunz", "natur"],
     "char": "🐷",
     "category": "natur"
   },
   "pig_nose": {
-    "keywords": ["tier", "grunz"],
+    "keywords": ["grunz"],
     "char": "🐽",
     "category": "natur"
   },
   "dog2": {
-    "keywords": ["tier", "natur", "freund", "dogen", "haustier", "treu"],
+    "keywords": ["natur", "freund", "dogen", "haustier", "treu"],
     "char": "🐕",
     "category": "natur"
   },
   "poodle": {
-    "keywords": ["hund", "tier", "101", "natur", "haustier"],
+    "keywords": ["hund", "101", "natur", "haustier"],
     "char": "🐩",
     "category": "natur"
   },
   "dog": {
-    "keywords": ["tier", "freund", "natur", "einschlag", "hündchen", "haustier", "treu"],
+    "keywords": ["freund", "natur", "einschlag", "hündchen", "haustier", "treu"],
     "char": "🐶",
     "category": "natur"
   },
   "wolf": {
-    "keywords": ["tier", "natur", "wild"],
+    "keywords": ["natur", "wild"],
     "char": "🐺",
     "category": "natur"
   },
   "bear": {
-    "keywords": ["tier", "natur", "wild"],
+    "keywords": ["natur", "wild"],
     "char": "🐻",
     "category": "natur"
   },
   "koala": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐨",
     "category": "natur"
   },
   "panda_face": {
-    "keywords": ["tier", "natur"],
+    "keywords": ["natur"],
     "char": "🐼",
     "category": "natur"
   },
   "monkey_face": {
-    "keywords": ["tier", "natur", "zirkus"],
+    "keywords": ["natur", "zirkus"],
     "char": "🐵",
     "category": "natur"
   },
   "see_no_evil": {
-    "keywords": ["affe", "tier", "natur", "haha"],
+    "keywords": ["affe", "natur", "haha"],
     "char": "🙈",
     "category": "natur"
   },
   "hear_no_evil": {
-    "keywords": ["tier", "affe", "natur"],
+    "keywords": ["affe", "natur"],
     "char": "🙉",
     "category": "natur"
   },
   "speak_no_evil": {
-    "keywords": ["affe", "tier", "natur", "omg"],
+    "keywords": ["affe", "natur", "omg"],
     "char": "🙊",
     "category": "natur"
   },
   "monkey": {
-    "keywords": ["tier", "natur", "banane", "zirkus"],
+    "keywords": ["natur", "banane", "zirkus"],
     "char": "🐒",
     "category": "natur"
   },
   "dragon": {
-    "keywords": ["tier", "mythos", "natur", "chinesisch", "grün"],
+    "keywords": ["mythos", "natur", "chinesisch", "grün"],
     "char": "🐉",
     "category": "natur"
   },
   "dragon_face": {
-    "keywords": ["tier", "mythos", "natur", "chinesisch", "grün"],
+    "keywords": ["mythos", "natur", "chinesisch", "grün"],
     "char": "🐲",
     "category": "natur"
   },
   "crocodile": {
-    "keywords": ["tier", "natur", "reptil"],
+    "keywords": ["natur", "reptil"],
     "char": "🐊",
     "category": "natur"
   },
   "snake": {
-    "keywords": ["tier", "böse", "natur", "zischen"],
+    "keywords": ["böse", "natur", "zischen"],
     "char": "🐍",
     "category": "natur"
   },
   "turtle": {
-    "keywords": ["tier", "langsam", "natur", "schildkröte"],
+    "keywords": ["langsam", "natur", "schildkröte"],
     "char": "🐢",
     "category": "natur"
   },
   "frog": {
-    "keywords": ["tier", "natur", "quaken"],
+    "keywords": ["natur", "quaken"],
     "char": "🐸",
     "category": "natur"
   },
   "whale2": {
-    "keywords": ["tier", "natur", "meer", "ozean"],
+    "keywords": ["natur", "meer", "ozean"],
     "char": "🐋",
     "category": "natur"
   },
   "whale": {
-    "keywords": ["tier", "natur", "meer", "ozean"],
+    "keywords": ["natur", "meer", "ozean"],
     "char": "🐳",
     "category": "natur"
   },
   "dolphin": {
-    "keywords": ["tier", "natur", "fisch", "meer", "ozean", "flosse", "flossen", "strand"],
+    "keywords": ["natur", "fisch", "meer", "ozean", "flosse", "flossen", "strand"],
     "char": "🐬",
     "category": "natur"
   },
   "octopus": {
-    "keywords": ["tier", "geschöpf", "ozean", "meer", "natur", "strand"],
+    "keywords": ["geschöpf", "ozean", "meer", "natur", "strand"],
     "char": "🐙",
     "category": "natur"
   },
   "fish": {
-    "keywords": ["tier", "lebensmittel", "natur"],
+    "keywords": ["lebensmittel", "natur"],
     "char": "🐟",
     "category": "natur"
   },
   "tropical_fish": {
-    "keywords": ["tier", "schwimmen", "ozean", "strand", "nemo"],
+    "keywords": ["schwimmen", "ozean", "strand", "nemo"],
     "char": "🐠",
     "category": "natur"
   },
   "blowfish": {
-    "keywords": ["tier", "natur", "lebensmittel", "meer", "ozean"],
+    "keywords": ["natur", "lebensmittel", "meer", "ozean"],
     "char": "🐡",
     "category": "natur"
   },
@@ -1080,32 +1080,32 @@
     "category": "natur"
   },
   "snail": {
-    "keywords": ["langsam", "tier", "schale"],
+    "keywords": ["langsam", "schale"],
     "char": "🐌",
     "category": "natur"
   },
   "bug": {
-    "keywords": ["tier", "insekt", "natur", "wurm"],
+    "keywords": ["insekt", "natur", "wurm"],
     "char": "🐛",
     "category": "natur"
   },
   "ant": {
-    "keywords": ["tier", "insekt", "natur", "fehler"],
+    "keywords": ["insekt", "natur", "fehler"],
     "char": "🐜",
     "category": "natur"
   },
   "bee": {
-    "keywords": ["tier", "insekt", "natur", "fehler", "frühling"],
+    "keywords": ["insekt", "natur", "fehler", "frühling"],
     "char": "🐝",
     "category": "natur"
   },
   "beetle": {
-    "keywords": ["tier", "insekt", "natur", "fehler"],
+    "keywords": ["insekt", "natur", "fehler"],
     "char": "🐞",
     "category": "natur"
   },
   "feet": {
-    "keywords": ["tier", "verfolgung", "fußabdrücke", "hund", "katze", "haustier", "pfotenabdrücke"],
+    "keywords": ["verfolgung", "fußabdrücke", "hund", "katze", "haustier", "pfotenabdrücke"],
     "char": "🐾",
     "category": "natur"
   },
@@ -1465,7 +1465,7 @@
     "category": "foodanddrink"
   },
   "fried_shrimp": {
-    "keywords": ["lebensmittel", "tier", "vorspeise", "sommer"],
+    "keywords": ["lebensmittel", "vorspeise", "sommer"],
     "char": "🍤",
     "category": "foodanddrink"
   },
@@ -1834,6 +1834,11 @@
     "char": "🎿",
     "category": "activity"
   },
+  "stadium": {
+    "keywords": ["veranstaltung", "veranstaltungen", "großveranstaltung", "großveranstaltungen"],
+    "char": "\uD83C\uDFDF️",
+    "category": "activity"
+  },
   "snowman": {
     "keywords": ["winter", "saison", "kalt", "weihnachten", "weihnachten", "gefroren"],
     "char": "⛄",
@@ -1850,7 +1855,7 @@
     "category": "activity"
   },
   "horse_racing": {
-    "keywords": ["tier", "wetten", "wettbewerb", "spiel", "glück"],
+    "keywords": ["wetten", "wettbewerb", "spiel", "glück"],
     "char": "🏇",
     "category": "activity"
   },
@@ -2062,6 +2067,11 @@
   "mountain_railway": {
     "keywords": ["verkehr", "fahrzeug"],
     "char": "🚞",
+    "category": "travelandplaces"
+  },
+  "railway_track": {
+    "keywords": ["gleis", "gleise"],
+    "char": "\uD83D\uDEE4️",
     "category": "travelandplaces"
   },
   "steam_locomotive": {
@@ -4235,12 +4245,12 @@
     "category": "objectsandsymbols"
   },
   "octocat": {
-    "keywords": ["tier", "krake", "github", "custom_"],
+    "keywords": ["krake", "github", "custom_"],
     "char": null,
     "category": "_custom"
   },
   "shipit": {
-    "keywords": ["eichhörnchen", "detektiv", "tier", "sherlock", "inspektor", "custom_"],
+    "keywords": ["eichhörnchen", "detektiv", "sherlock", "inspektor", "custom_"],
     "char": null,
     "category": "_custom"
   },
