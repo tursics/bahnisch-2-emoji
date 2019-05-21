@@ -815,7 +815,7 @@
     "category": "natur"
   },
   "cow": {
-    "keywords": ["tier", "tiere"],
+    "keywords": ["tier", "tiere", "fleckvieh"],
     "char": "🐮",
     "category": "natur"
   },
@@ -2075,7 +2075,7 @@
     "category": "travelandplaces"
   },
   "steam_locomotive": {
-    "keywords": ["eisenbahn", "bahn", "zug", "zugverkehr"],
+    "keywords": ["eisenbahn", "bahn", "zug", "zugverkehr", "züge"],
     "char": "🚂",
     "category": "travelandplaces"
   },
@@ -3895,7 +3895,7 @@
     "category": "objectsandsymbols"
   },
   "bangbang": {
-    "keywords": ["störung"],
+    "keywords": ["störung", "vorsicht"],
     "char": "‼️",
     "category": "objectsandsymbols"
   },
