@@ -2145,7 +2145,7 @@
     "category": "travelandplaces"
   },
   "ambulance": {
-    "keywords": ["gesundheit", "911", "krankenhaus"],
+    "keywords": ["noteinsatz", "rettungseinsatz", "notarzt", "arzt", "notarzteinsatz"],
     "char": "🚑",
     "category": "travelandplaces"
   },
@@ -2215,7 +2215,7 @@
     "category": "travelandplaces"
   },
   "busstop": {
-    "keywords": ["busteig", "buskante"],
+    "keywords": ["kante","bussteig", "buskante"],
     "char": "🚏",
     "category": "travelandplaces"
   },
@@ -2425,7 +2425,7 @@
     "category": "travelandplaces"
   },
   "hospital": {
-    "keywords": ["gebäude", "gesundheit", "chirurgie", "arzt"],
+    "keywords": ["gebäude", "gesundheit", "chirurgie"],
     "char": "🏥",
     "category": "travelandplaces"
   },
@@ -2800,12 +2800,12 @@
     "category": "objectsandsymbols"
   },
   "syringe": {
-    "keywords": ["gesundheit", "krankenhaus", "drogen", "blut", "medizin", "nadel", "arzt", "krankenschwester"],
+    "keywords": ["gesundheit", "krankenhaus", "drogen", "blut", "medizin", "nadel", "krankenschwester"],
     "char": "💉",
     "category": "objectsandsymbols"
   },
   "pill": {
-    "keywords": ["gesundheit", "medizin", "arzt", "apotheke"],
+    "keywords": ["gesundheit", "medizin", "apotheke"],
     "char": "💊",
     "category": "objectsandsymbols"
   },
@@ -3680,7 +3680,7 @@
     "category": "objectsandsymbols"
   },
   "twisted_rightwards_arrows": {
-    "keywords": ["blau-square", "shuffle", "musik", "zufällig"],
+    "keywords": ["wechsel", "wechselt"],
     "char": "🔀",
     "category": "objectsandsymbols"
   },

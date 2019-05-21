@@ -76,7 +76,7 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'bitte' || word === 'sie'){
     useful.push('');
-  } else if (word === 'ist' || word === 'wegen' || word === 'fahren' || word === 'fährt' || word === 'nutzen') {
+  } else if (word === 'ist' || word === 'auf' || word === 'wegen' || word === 'fahren' || word === 'fährt' || word === 'nutzen') {
     useful.push('&nbsp;');
   } else if (word === 'voraussichtlich' || word === 'voraussichtliche' || word === 'ca') {
     useful.push('&nbsp;');
