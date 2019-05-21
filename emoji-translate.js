@@ -1,6 +1,7 @@
 const emojilib = require('emojilib');
 const SYMBOLS = '!"#$%&\'()*+,-./:;<=>?@[]^_`{|}~';
-const allEmoji = emojilib.lib;
+//const allEmoji = emojilib.lib;
+const allEmoji = require('./extension/emojis-de-BAHN');
 
 /**
  * Returns true for something that's already an emoji like 🤖.
@@ -62,19 +63,12 @@ function getAllEmojiForWord(originalWord) {
   }
 
   // If it's "i" or "i", add some faces to it.
-  if (word === 'i' || word === 'you') {
-    useful.push('😀');
-    useful.push('😊');
-  } else if (word === 'she'){
-    useful.push('💁');
-  } else if (word === 'he'){
-    useful.push('💁‍♂️');
-  } else if (word === 'we' || word === 'they') {
-    useful.push('👩‍👩‍👦‍👦');
-  } else if (word === 'am' || word === 'is' || word === 'are') {
-    useful.push('👉');
-  } else if (word === 'thanks') {
-    useful.push('🙌');
+  if (word === 'der' || word === 'die' || word === 'das') {
+    useful.push('');
+  } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
+    useful.push('');
+  } else if (word === 'ist') {
+    useful.push('&nbsp;');
   }
 
   for (let emoji in allEmoji) {
