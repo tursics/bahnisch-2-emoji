@@ -66,7 +66,7 @@ function getAllEmojiForWord(originalWord) {
   // If it's "i" or "i", add some faces to it.
   if (word === 'der' || word === 'die' || word === 'das') {
     useful.push('');
-  } else if (word === 'diese' || word === 'dieser' || word === 'dieses'){
+  } else if (word === 'diese' || word === 'dieser' || word === 'dieses' || word === 'den' || word === 'dem' || word === 'dessen') {
     useful.push('');
   } else if (word === 'haben' || word === 'habt' || word === 'hat' || word === 'wird' || word === 'werden' || word === 'kommen' || word === 'kommt'){
     useful.push('');
@@ -74,7 +74,9 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'im' || word === 'in' || word === 'an' || word === 'um'){
     useful.push('');
-  } else if (word === 'ist' || word === 'wegen') {
+  } else if (word === 'bitte' || word === 'sie'){
+    useful.push('');
+  } else if (word === 'ist' || word === 'wegen' || word === 'fahren' || word === 'fährt' || word === 'nutzen') {
     useful.push('&nbsp;');
   } else if (word === 'voraussichtlich' || word === 'voraussichtliche' || word === 'ca') {
     useful.push('&nbsp;');

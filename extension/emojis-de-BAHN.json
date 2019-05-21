@@ -675,7 +675,7 @@
     "category": "menschen"
   },
   "pray": {
-    "keywords": ["bitte", "hoffnung", "wünschen", "namaste", "high five"],
+    "keywords": ["hoffnung", "wünschen", "namaste", "high five"],
     "char": "🙏",
     "category": "menschen"
   },
@@ -2215,7 +2215,7 @@
     "category": "travelandplaces"
   },
   "busstop": {
-    "keywords": ["verkehr", "warten"],
+    "keywords": ["busteig", "buskante"],
     "char": "🚏",
     "category": "travelandplaces"
   },
@@ -2225,7 +2225,7 @@
     "category": "travelandplaces"
   },
   "construction": {
-    "keywords": ["wip", "fortschritt", "vorsicht", "warnung"],
+    "keywords": ["baustelle", "baustellen"],
     "char": "🚧",
     "category": "travelandplaces"
   },
