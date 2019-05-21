@@ -68,13 +68,13 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'diese' || word === 'dieser' || word === 'dieses'){
     useful.push('');
-  } else if (word === 'haben' || word === 'habt' || word === 'hat'){
+  } else if (word === 'haben' || word === 'habt' || word === 'hat' || word === 'wird' || word === 'werden' || word === 'kommen' || word === 'kommt'){
     useful.push('');
   } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
     useful.push('');
-  } else if (word === 'min' || word === 'minute' || word === 'minuten'){
-    useful.push('');
   } else if (word === 'ist' || word === 'wegen') {
+    useful.push('&nbsp;');
+  } else if (word === 'voraussichtlich' || word === 'voraussichtliche' || word === 'ca') {
     useful.push('&nbsp;');
   }
 

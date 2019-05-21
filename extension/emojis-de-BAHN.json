@@ -615,7 +615,7 @@
     "category": "menschen"
   },
   "point_up": {
-    "keywords": ["hand", "finger", "richtung"],
+    "keywords": ["ankündigung"],
     "char": "☝️",
     "category": "menschen"
   },
@@ -1160,7 +1160,7 @@
     "category": "natur"
   },
   "snowflake": {
-    "keywords": ["winter", "saison", "kalt", "weihnachten", "weihnachten"],
+    "keywords": ["schnee", "schneefall", "winter"],
     "char": "❄️",
     "category": "natur"
   },
@@ -1830,7 +1830,7 @@
     "category": "activity"
   },
   "ski": {
-    "keywords": ["sport", "winter", "kalt", "schnee"],
+    "keywords": ["sport", "winter", "kalt"],
     "char": "🎿",
     "category": "activity"
   },
@@ -2065,12 +2065,12 @@
     "category": "travelandplaces"
   },
   "steam_locomotive": {
-    "keywords": ["verkehr", "fahrzeug"],
+    "keywords": ["eisenbahn", "bahn", "zug", "zugverkehr"],
     "char": "🚂",
     "category": "travelandplaces"
   },
   "train": {
-    "keywords": ["eisenbahn", "bahn", "zug", "zugverkehr"],
+    "keywords": ["_eisenbahn", "_bahn", "_zug", "_zugverkehr"],
     "char": "🚋",
     "category": "travelandplaces"
   },
@@ -2529,6 +2529,11 @@
     "char": "⏰",
     "category": "objectsandsymbols"
   },
+  "stop_watch": {
+    "keywords": ["min", "minute", "minuten"],
+    "char": "⏱️",
+    "category": "objectsandsymbols"
+  },
   "hourglass_flowing_sand": {
     "keywords": ["zeit", "verzögern", "verzögert", "spät", "später", "verspätet", "verspätung"],
     "char": "⏳",
@@ -2925,7 +2930,7 @@
     "category": "objectsandsymbols"
   },
   "page_facing_up": {
-    "keywords": ["unterlagen", "büro", "papier", "informationen"],
+    "keywords": ["unterlagen", "büro", "papier"],
     "char": "📄",
     "category": "objectsandsymbols"
   },
@@ -3545,7 +3550,7 @@
     "category": "objectsandsymbols"
   },
   "put_litter_in_its_place": {
-    "keywords": ["blau-square", "schild", "mensch", "info"],
+    "keywords": ["blau-square", "schild", "mensch"],
     "char": "🚮",
     "category": "objectsandsymbols"
   },
@@ -3760,7 +3765,7 @@
     "category": "objectsandsymbols"
   },
   "information_source": {
-    "keywords": ["blau-square", "alphabet", "schreiben"],
+    "keywords": ["info", "information"],
     "char": "ℹ️",
     "category": "objectsandsymbols"
   },
@@ -3875,7 +3880,7 @@
     "category": "objectsandsymbols"
   },
   "bangbang": {
-    "keywords": ["ausruf", "überraschung"],
+    "keywords": ["störung"],
     "char": "‼️",
     "category": "objectsandsymbols"
   },
