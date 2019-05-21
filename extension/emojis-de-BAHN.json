@@ -2295,7 +2295,7 @@
     "category": "travelandplaces"
   },
   "suspension_railway": {
-    "keywords": ["fahrzeug", "verkehr"],
+    "keywords": ["schwebebahn", "schwebebahnen", "seilbahn", "seilbahnen"],
     "char": "🚟",
     "category": "travelandplaces"
   },
