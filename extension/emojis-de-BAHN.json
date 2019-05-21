@@ -830,7 +830,7 @@
     "category": "natur"
   },
   "tiger": {
-    "keywords": ["tier", "katze", "achtung", "wild", "natur", "gebrüll"],
+    "keywords": ["tier", "katze", "wild", "natur", "gebrüll"],
     "char": "🐯",
     "category": "natur"
   },
@@ -1110,7 +1110,7 @@
     "category": "natur"
   },
   "zap": {
-    "keywords": ["donner", "wetter", "blitz", "schnell"],
+    "keywords": ["donner", "blitz", "schnell"],
     "char": "⚡",
     "category": "natur"
   },
@@ -1125,17 +1125,17 @@
     "category": "natur"
   },
   "sunny": {
-    "keywords": ["wetter", "natur", "helligkeit", "sommer", "strand", "frühling"],
+    "keywords": ["natur", "helligkeit", "sommer", "strand", "frühling"],
     "char": "☀️",
     "category": "natur"
   },
   "partly_sunny": {
-    "keywords": ["wetter", "natur", "bewölkt", "morgen", "fallen", "frühling"],
+    "keywords": ["natur", "bewölkt", "morgen", "fallen", "frühling"],
     "char": "⛅",
     "category": "natur"
   },
   "cloud": {
-    "keywords": ["wetter", "himmel"],
+    "keywords": ["himmel"],
     "char": "☁️",
     "category": "natur"
   },
@@ -1150,7 +1150,7 @@
     "category": "natur"
   },
   "umbrella": {
-    "keywords": ["regnerisch", "wetter", "frühling"],
+    "keywords": ["regnerisch", "frühling"],
     "char": "☔",
     "category": "natur"
   },
@@ -1160,7 +1160,7 @@
     "category": "natur"
   },
   "snowflake": {
-    "keywords": ["winter", "saison", "kalt", "wetter", "weihnachten", "weihnachten"],
+    "keywords": ["winter", "saison", "kalt", "weihnachten", "weihnachten"],
     "char": "❄️",
     "category": "natur"
   },
@@ -1835,7 +1835,7 @@
     "category": "activity"
   },
   "snowman": {
-    "keywords": ["winter", "saison", "kalt", "wetter", "weihnachten", "weihnachten", "gefroren"],
+    "keywords": ["winter", "saison", "kalt", "weihnachten", "weihnachten", "gefroren"],
     "char": "⛄",
     "category": "activity"
   },
@@ -2055,7 +2055,7 @@
     "category": "activity"
   },
   "railway_car": {
-    "keywords": ["verkehr", "fahrzeug"],
+    "keywords": ["wagen", "wagon"],
     "char": "🚃",
     "category": "travelandplaces"
   },
@@ -2070,7 +2070,7 @@
     "category": "travelandplaces"
   },
   "train": {
-    "keywords": ["eisenbahn", "bahn", "zugverkehr"],
+    "keywords": ["eisenbahn", "bahn", "zug", "zugverkehr"],
     "char": "🚋",
     "category": "travelandplaces"
   },
@@ -2530,7 +2530,7 @@
     "category": "objectsandsymbols"
   },
   "hourglass_flowing_sand": {
-    "keywords": ["zeit", "verzögern", "verzögert"],
+    "keywords": ["zeit", "verzögern", "verzögert", "spät", "später", "verspätet"],
     "char": "⏳",
     "category": "objectsandsymbols"
   },
@@ -2655,7 +2655,7 @@
     "category": "objectsandsymbols"
   },
   "closed_umbrella": {
-    "keywords": ["wetter", "regen", "sprühregen"],
+    "keywords": ["regen", "sprühregen"],
     "char": "🌂",
     "category": "objectsandsymbols"
   },
@@ -3175,7 +3175,7 @@
     "category": "objectsandsymbols"
   },
   "children_crossing": {
-    "keywords": ["schule", "warnung", "achtung", "schild", "fahren", "gelb-diamant-"],
+    "keywords": ["schule", "warnung", "schild", "fahren", "gelb-diamant-"],
     "char": "🚸",
     "category": "objectsandsymbols"
   },
@@ -3340,7 +3340,7 @@
     "category": "objectsandsymbols"
   },
   "negative_squared_cross_mark": {
-    "keywords": ["kein", "nicht", "unterbrochen"],
+    "keywords": ["kein", "nicht", "unterbrochen", "entfällt"],
     "char": "❎",
     "category": "objectsandsymbols"
   },
@@ -3680,7 +3680,7 @@
     "category": "objectsandsymbols"
   },
   "hash": {
-    "keywords": ["symbol", "blau-square", "zwitschern"],
+    "keywords": ["nummer"],
     "char": "#️⃣",
     "category": "objectsandsymbols"
   },
@@ -3855,7 +3855,7 @@
     "category": "objectsandsymbols"
   },
   "exclamation": {
-    "keywords": ["heavy_exclamation_mark", "achtung", "überraschung", "zeichensetzung", "wow", "warnung"],
+    "keywords": ["achtung", "warnung"],
     "char": "❗",
     "category": "objectsandsymbols"
   },
@@ -3925,7 +3925,7 @@
     "category": "objectsandsymbols"
   },
   "cyclone": {
-    "keywords": ["wetter", "wirbel", "blau", "wolke"],
+    "keywords": ["unwetter"],
     "char": "🌀",
     "category": "objectsandsymbols"
   },
@@ -4020,7 +4020,7 @@
     "category": "objectsandsymbols"
   },
   "red_circle": {
-    "keywords": ["form", "fehler", "achtung"],
+    "keywords": ["form", "fehler"],
     "char": "🔴",
     "category": "objectsandsymbols"
   },
@@ -4110,122 +4110,122 @@
     "category": "objectsandsymbols"
   },
   "clock1": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕐",
     "category": "objectsandsymbols"
   },
   "clock130": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕜",
     "category": "objectsandsymbols"
   },
   "clock2": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕑",
     "category": "objectsandsymbols"
   },
   "clock230": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕝",
     "category": "objectsandsymbols"
   },
   "clock3": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕒",
     "category": "objectsandsymbols"
   },
   "clock330": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕞",
     "category": "objectsandsymbols"
   },
   "clock4": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕓",
     "category": "objectsandsymbols"
   },
   "clock430": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕟",
     "category": "objectsandsymbols"
   },
   "clock5": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕔",
     "category": "objectsandsymbols"
   },
   "clock530": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕠",
     "category": "objectsandsymbols"
   },
   "clock6": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan", "morgendämmerung", "abenddämmerung"],
+    "keywords": ["zeit", "früh", "zeitplan", "morgendämmerung", "abenddämmerung"],
     "char": "🕕",
     "category": "objectsandsymbols"
   },
   "clock630": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕡",
     "category": "objectsandsymbols"
   },
   "clock7": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕖",
     "category": "objectsandsymbols"
   },
   "clock730": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕢",
     "category": "objectsandsymbols"
   },
   "clock8": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕗",
     "category": "objectsandsymbols"
   },
   "clock830": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕣",
     "category": "objectsandsymbols"
   },
   "clock9": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕘",
     "category": "objectsandsymbols"
   },
   "clock930": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕤",
     "category": "objectsandsymbols"
   },
   "clock10": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕙",
     "category": "objectsandsymbols"
   },
   "clock1030": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕥",
     "category": "objectsandsymbols"
   },
   "clock11": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕚",
     "category": "objectsandsymbols"
   },
   "clock1130": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕦",
     "category": "objectsandsymbols"
   },
   "clock12": {
-    "keywords": ["zeit", "mittag", "mitternacht", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "mittag", "mitternacht", "früh", "zeitplan"],
     "char": "🕛",
     "category": "objectsandsymbols"
   },
   "clock1230": {
-    "keywords": ["zeit", "spät", "früh", "zeitplan"],
+    "keywords": ["zeit", "früh", "zeitplan"],
     "char": "🕧",
     "category": "objectsandsymbols"
   },

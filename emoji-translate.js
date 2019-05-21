@@ -25,7 +25,8 @@ function isMaybeAlreadyAnEmoji(word) {
 function getAllEmojiForWord(originalWord) {
   let word = originalWord.trim().toLowerCase();
 
-  if (!word || word === '' || word === 'a' || word === 'it' || word === 'is')
+//  if (!word || word === '' || word === 'a' || word === 'it' || word === 'is')
+  if (!word || word === '')
     return '';
 
   // Maybe this is a plural word but the word is the singular?
@@ -43,7 +44,7 @@ function getAllEmojiForWord(originalWord) {
   let maybeVerbedVowel = '';
   let maybeVerbedDoubled  = '';
 
-  if (word.indexOf('ing') !== -1) {
+/*  if (word.indexOf('ing') !== -1) {
     let verb = word.substr(0, word.length - 3);
     // eating -> eat
     maybeVerbedSimple = verb;
@@ -51,7 +52,7 @@ function getAllEmojiForWord(originalWord) {
     maybeVerbedVowel = verb + 'e';
     // running -> run
     maybeVerbedDoubled = verb.substr(0, verb.length - 1);
-  }
+  }*/
 
   // Go through all the things and find the first one that matches.
   let useful = [];
@@ -65,9 +66,11 @@ function getAllEmojiForWord(originalWord) {
   // If it's "i" or "i", add some faces to it.
   if (word === 'der' || word === 'die' || word === 'das') {
     useful.push('');
+  } else if (word === 'diese' || word === 'dieser' || word === 'dieses'){
+    useful.push('');
   } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
     useful.push('');
-  } else if (word === 'ist') {
+  } else if (word === 'ist' || word === 'wegen') {
     useful.push('&nbsp;');
   }
 
@@ -129,15 +132,18 @@ function translateForDisplay(word) {
     word = word.slice(0, word.length - 1);
   }
 
+  firstSymbol = lastSymbol = '';
+
   // If it's already an emoji, return it.
   var emoji = getAllEmojiForWord(word);
-  if (emoji === '')
+  if (emoji === '') {
     emoji = [word];
+  }
 
   var node;
   if (emoji.length === 1) {
     node = document.createElement('span');
-    node.innerHTML = firstSymbol + emoji + lastSymbol + ' ';
+    node.innerHTML = firstSymbol + emoji + lastSymbol + '';
   } else {
     node = document.createElement('select');
     for (var i = 0; i < emoji.length; i++) {
