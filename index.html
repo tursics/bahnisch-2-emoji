@@ -16,13 +16,12 @@
     font-weight: 300;
     background: #fff;
     color: #535353;
-    margin: 0px;
-    padding: 50px;
+    margin: 0;
+    padding: 5vw;
     overflow: auto;
     font-size: 16px;
   }
   .container {
-    max-width: 600px;
     margin: 0 auto;
     overflow: auto;
     z-index: 10;
@@ -38,14 +37,17 @@
   h1 {
     font-family: 'Lato', 'Helvetica', Arial, sans-serif;
     font-weight: 300;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
   }
   textarea {
+    background: #c8c8e0;
+    border-color: #2d2d77;
     width: 100%;
     font-family: 'Helvetica';
     font-weight: 300;
     font-size: 16px;
-    height: 150px;
+    height: 3.5em;
     line-height: 24px;
   }
   select {
@@ -123,14 +125,33 @@
     left: 0;
     z-index: 0;
   }
+  #perron {
+    background: url("public/assets/perronanzeiger.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 90vw;
+    height: 25vw;
+  }
+  #perron h1 {
+    font-family: 'Lato', 'Helvetica', Arial, sans-serif;
+    font-size: 5vw;
+    font-weight: 300;
+    margin: 0;
+    padding: 17vw 0 0 1vw;
+    line-height: 8vw;
+  }
 </style>
 <body>
   <div class="container">
-    <h1>Bahnansagen</h1>
+    <h1>Perronanzeiger</h1>
     <p class="note">Kategorie [Achtung, Ankündigung, Info, Störung] + Grund + Auswirkung + Alternative</p>
     <textarea id="input">Achtung: Wegen Schneefall wird der Zug später kommen, voraussichtliche Minuten 5</textarea>
     <br><br>
-    <h1 id="output"></h1>
+    <div id="perron">
+      <h1 id="output"></h1>
+    </div>
     <div><button onclick="copy()" id="copyButton">In Zwischenablage kopieren</button></div>
     <div id="footer">
         <p>made with <span class="red">❤︎</span> by <a href="https://twitter.com/tursics">thomas</a>.
