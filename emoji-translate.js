@@ -68,7 +68,11 @@ function getAllEmojiForWord(originalWord) {
     useful.push('');
   } else if (word === 'diese' || word === 'dieser' || word === 'dieses'){
     useful.push('');
+  } else if (word === 'haben' || word === 'habt' || word === 'hat'){
+    useful.push('');
   } else if (word === 'ein' || word === 'eine' || word === 'einer' || word === 'eines'){
+    useful.push('');
+  } else if (word === 'min' || word === 'minute' || word === 'minuten'){
     useful.push('');
   } else if (word === 'ist' || word === 'wegen') {
     useful.push('&nbsp;');
